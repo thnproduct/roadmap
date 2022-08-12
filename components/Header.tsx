@@ -8,7 +8,7 @@ export default function Header() {
       <div className="flex justify-center">
         <img
           src={resolvedTheme === 'light' ? '/logo-light.svg' : '/logo-dark.svg'}
-          alt="Upstash"
+          alt="Foresight"
           width={140}
         />
       </div>

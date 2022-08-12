@@ -25,7 +25,7 @@ export default function MyApp({ Component, pageProps }) {
           }}
         >
           <Head>
-            <title>Roadmap Voting</title>
+            <title>Foresight Roadmap</title>
           </Head>
 
           <div className="antialiased max-w-xl mx-auto px-4">

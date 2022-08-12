@@ -15,7 +15,7 @@ export default function Footer() {
           rel="noopener noreferrer"
           className="text-dimmed"
         >
-          Create your own Roadmap Voting App with Upstash and Redis.
+          Created using Upstash and Redis.
         </a>
       </p>
 
