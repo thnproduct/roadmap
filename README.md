@@ -1,4 +1,4 @@
-# Roadmap Voting App
+# Foresight Roadmap Voting App
 
 ![](https://github.com/upstash/roadmap/blob/main/ss.png)
 
