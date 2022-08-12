@@ -7,11 +7,11 @@ export default authenticate(async (req, res) => {
   try {
     const { title } = req.body
 
-    let schema = string().required().trim().min(10).max(70)
+    let schema = string().required().trim().min(3).max(70)
     const isValid = await schema.isValid(title)
 
     if (!isValid) {
-      throw new Error('Min 10 and Max 70 characters please.')
+      throw new Error('Min 3 and Max 70 characters please.')
     }
 
     const { nickname, email, updated_at, ...user } = req.user
